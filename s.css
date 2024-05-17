@@ -26,4 +26,8 @@
     background-color: rgb(255, 0, 170);
     float:left
 }
+.photo{
+    border: 5px solid rgb(0, 0, 0);
+    float:left
+}
 
