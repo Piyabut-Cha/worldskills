@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>List Competitions - Thai Football Tournament</title>
+
+    <script
+      type="module"
+      crossorigin
+      src="./assets/compiled/js/bootstrap.esm.js"
+    ></script>
+    <link rel="stylesheet" href="./assets/compiled/css/bootstrap.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container">
+        <a class="navbar-brand" href="competition-index.html"
+          >Thai Football competition</a
+        >
+      </div>
+    </nav>
+
+    <main class="container py-5">
+      <header class="mb-4 d-flex align-items-center justify-content-between">
+        <h3 class="mb-0">Competition List</h3>
+        <a class="btn btn-outline-primary" href="competition-create.html">Create a competition</a>
+      </header>
+
+      <section class="competition-list">
+        <a href="competition-detail.html">
+          <article class="competition-box card mb-3">
+            <div class="card-body">
+              <h4>Bangkok Cup</h4>
+              <p class="text-muted mb-0">16 Teams - 13 Provinces</p>
+            </div>
+          </article>
+        </a>
+        <a href="competition-detail.html">
+          <article class="competition-box card mb-3">
+            <div class="card-body">
+              <h4>Khon Kaen Cup</h4>
+              <p class="text-muted mb-0">4 Teams - 2 Provinces</p>
+            </div>
+          </article>
+        </a>
+      </section>
+    </main>
+  </body>
+</html>
